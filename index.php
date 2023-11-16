@@ -502,7 +502,7 @@
                                     class="work-inner projects-list work-one-page d-grid grid-md-2  grid-lg-3 p-relative w-100 dsn-item-filter dsn-isotope">
 
                                 <div class="work-item  p-relative php">
-                                    <a class="effect-ajax" data-dsn-ajax="work" href="projects/project1.php">
+                                    <a class="effect-ajax" data-dsn-ajax="work" href="project1.php">
                                         <div class="work-item-inner">
                                             <h5 class="cat p-absolute">Php</h5>
 

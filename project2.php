@@ -24,11 +24,11 @@
                     <!--=== Header Project Full With & content bottom ===-->
                     <header class="header-project p-relative h-100-v over-hidden dsn-header-animation v-dark-head">
                         <div data-dsn-ajax="img" class="p-absolute dsn-hero-parallax-img w-100 h-100 over-hidden  " data-overlay="6">
-                            <img class="cover-bg-img" src="assets/img/project/project1/exam-centre.png" alt="">
+                            <img class="cover-bg-img" src="assets/img/project/project2/tcn.png" alt="">
                         </div>
                         <div class="project-number p-absolute dsn-container d-flex">
                             <h6>Project</h6>
-                            <span class="curent">1</span>
+                            <span class="curent">2</span>
                             <span class="full">6</span>
                         </div>
                         <div class="d-flex  dsn-hero-parallax-title align-items-end h-100 dsn-container pb-40 pt-80">
@@ -36,10 +36,10 @@
                                 <div class="intro-project">
                                     <div id="dsn-hero-title" class="intro-title">
                                         <div class="metas d-inline-block mb-20">
-                                            <span>Php</span>
+                                            <span>Wordpress</span>
                                         </div>
                                         <h1 class="title" data-dsn-ajax="title">
-                                            Exam Centre
+                                            TCN Community Groups
                                         </h1>
                                     </div>
                                 </div>
@@ -60,11 +60,11 @@
                                             <h4 class="title-block text-uppercase mb-20">Project</h4>
                                             <ul class="intro-project-list">
                                                 <li class="p-relative">
-                                                    <strong>Agency</strong> Revocube Technologies
+                                                    <strong>Agency</strong> Convenant Christian Centre
 
                                                 </li>
                                                 <li class="p-relative">
-                                                    <strong> Published</strong> November 22nd 2021
+                                                    <strong> Published</strong> January 18th 2022
 
                                                 </li>
                                             </ul>
@@ -126,7 +126,7 @@
 
                     <div class="next-project v-dark-head p-relative h-v-100 over-hidden">
                         <div class="bg w-100 h-100 p-absolute over-hidden z-index-0 before-z-index" data-overlay="6">
-                            <img src="assets/img/project/project2/tcn.png" alt="" class="cover-bg-img">
+                            <img src="assets/img/project/project2/1.jpg" alt="" class="cover-bg-img">
                         </div>
                         <div class="next-project-inner dsn-container p-relative w-100 h-100 d-flex flex-column justify-content-center">
                             <div class="project-number p-absolute d-flex">
@@ -137,7 +137,7 @@
                             <div class="metas d-inline-block mt-30 right-0 p-absolute top-0 dsn-container">
                                 <span>Wordpress</span>
                             </div>
-                            <a href="project2.php" class="effect-ajax border-top border-bottom" data-dsn-ajax="next">
+                            <a href="project2.html" class="effect-ajax border-top border-bottom" data-dsn-ajax="next">
                                 <h2 class="title section-padding p-relative ">
                                     <span class="title-stroke">TCN Community Groups</span>
                                     <span class="p-absolute section-padding d-none top-0 w-100 h-100 left-0">TCN Community Groups</span>

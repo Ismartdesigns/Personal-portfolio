@@ -24,11 +24,11 @@
                     <!--=== Header Project Full With & content bottom ===-->
                     <header class="header-project p-relative h-100-v over-hidden dsn-header-animation v-dark-head">
                         <div data-dsn-ajax="img" class="p-absolute dsn-hero-parallax-img w-100 h-100 over-hidden  " data-overlay="6">
-                            <img class="cover-bg-img" src="assets/img/project/project2/tcn.png" alt="">
+                            <img class="cover-bg-img" src="assets/img/project/project4/tsa.png" alt="">
                         </div>
                         <div class="project-number p-absolute dsn-container d-flex">
                             <h6>Project</h6>
-                            <span class="curent">2</span>
+                            <span class="curent">4</span>
                             <span class="full">6</span>
                         </div>
                         <div class="d-flex  dsn-hero-parallax-title align-items-end h-100 dsn-container pb-40 pt-80">
@@ -36,10 +36,10 @@
                                 <div class="intro-project">
                                     <div id="dsn-hero-title" class="intro-title">
                                         <div class="metas d-inline-block mb-20">
-                                            <span>Wordpress</span>
+                                            <span>Php</span>
                                         </div>
                                         <h1 class="title" data-dsn-ajax="title">
-                                            TCN Community Groups
+                                            Tecstor Africa
                                         </h1>
                                     </div>
                                 </div>
@@ -60,11 +60,11 @@
                                             <h4 class="title-block text-uppercase mb-20">Project</h4>
                                             <ul class="intro-project-list">
                                                 <li class="p-relative">
-                                                    <strong>Agency</strong> Convenant Christian Centre
+                                                    <strong>Agency</strong> Tecstor Africa
 
                                                 </li>
                                                 <!-- <li class="p-relative">
-                                                    <strong> Published</strong> January 18th 2022
+                                                    <strong> Published</strong> November 16th 2023
 
                                                 </li> -->
                                             </ul>
@@ -73,8 +73,7 @@
                                     <div class="col-lg-7 offset-lg-1">
                                         <div class="intro-project-right">
                                             <h4 class="title-block text-uppercase mb-20">info</h4>
-                                            <p class="intro-project-description">One profile, Multiple School Choices.
-                                                Create an account for your child on ExamCentre.ng and gain access to multiple school options.</p>
+                                            <p class="intro-project-description">Tecstor is a Pan-African Technology Company that partners with and distributes notable brands in the Information and Technology Space.</p>
                                             <!-- <div class="intro-project-cat mt-30">
                                                 <span class="cat-item"> Arthur Kenzo
                                                 </span>
@@ -82,7 +81,7 @@
                                                 <span class="cat-item">Voice Speaker </span>
                                                 <span class="cat-item">design</span>
                                             </div> -->
-                                            <a target="_blank" href="https://www.tcncommunitygroups.org/" class="visit-site mt-30">
+                                            <a target="_blank" href="https://www.tecstorafrica.net/" class="visit-site mt-30">
                                                 <span class="inner-visit d-flex align-items-center">
                                                     <span class="text text-uppercase">Visit Website</span>
                                                     <span class="icon">
@@ -100,9 +99,9 @@
                         <!--=== End Intro Project ===-->
                         <div class="section-margin p-relative">
                             <div class="img-box-parallax" data-dsn-grid="move-up">
-                                <img class="has-bigger-scale" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project2/tcn-inner1.png" data-dsn-srcset="assets/img/project/project2/tcn-inner1.png 1800w,assets/img/project/project2/tcn-inner1.png 768w" alt="">
+                                <img class="has-bigger-scale" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project4/tsa-inner1.png" data-dsn-srcset="assets/img/project/project4/tsa-inner1.png 1800w,assets/img/project/project4/tsa-inner1.png 768w" alt="">
                                 <div class="cap">
-                                    <span>Wordpress</span>
+                                    <span>Php</span>
                                 </div>
                             </div>
                         </div>
@@ -110,14 +109,14 @@
                         <div class="section-margin has-popup over-hidden p-relative">
                             <div class="container">
                                 <div class="d-grid grid-md-3  over-hidden">
-                                    <a href="assets/img/project/project2/tcn-inner2.png" class="p-relative over-hidden h-v-60 d-flex">
-                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project2/tcn-inner2.png" data-dsn-srcset="assets/img/project/project2/tcn-inner2.png 1800w,assets/img/project/project2/tcn-inner2.png 768w" alt="" class="cover-bg-img">
+                                    <a href="assets/img/project/project4/tsa-inner2.png" class="p-relative over-hidden h-v-60 d-flex">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project4/tsa-inner2.png" data-dsn-srcset="assets/img/project/project4/tsa-inner2.png 1800w,assets/img/project/project4/tsa-inner2.png 768w" alt="" class="cover-bg-img">
                                     </a>
-                                    <a href="assets/img/project/project2/tcn-inner3.png" class="p-relative over-hidden h-v-60 d-flex">
-                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project2/tcn-inner3.png" data-dsn-srcset="assets/img/project/project2/tcn-inner3.png 1800w,assets/img/project/project2/tcn-inner3.png 768w" alt="" class="cover-bg-img">
+                                    <a href="assets/img/project/project4/tsa-inner3.png" class="p-relative over-hidden h-v-60 d-flex">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project4/tsa-inner3.png" data-dsn-srcset="assets/img/project/project4/tsa-inner3.png 1800w,assets/img/project/project4/tsa-inner3.png 768w" alt="" class="cover-bg-img">
                                     </a>
-                                    <a href="assets/img/project/project2/tcn-inner4.png" class="p-relative over-hidden h-v-60 d-flex">
-                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project2/tcn-inner4.png" data-dsn-srcset="assets/img/project/project2/tcn-inner4.png 1800w,assets/img/project/project2/tcn-inner4.png 768w" alt="" class="cover-bg-img">
+                                    <a href="assets/img/project/project4/tsa-inner4.png" class="p-relative over-hidden h-v-60 d-flex">
+                                        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-dsn-src="assets/img/project/project4/tsa-inner4.png" data-dsn-srcset="assets/img/project/project4/tsa-inner4.png 1800w,assets/img/project/project4/tsa-inner4.png 768w" alt="" class="cover-bg-img">
                                     </a>
                                 </div>
                             </div>
@@ -126,21 +125,21 @@
 
                     <div class="next-project v-dark-head p-relative h-v-100 over-hidden">
                         <div class="bg w-100 h-100 p-absolute over-hidden z-index-0 before-z-index" data-overlay="6">
-                            <img src="assets/img/project/project3/sky.png" alt="" class="cover-bg-img">
+                            <img src="assets/img/project/project5/hcp.png" alt="" class="cover-bg-img">
                         </div>
                         <div class="next-project-inner dsn-container p-relative w-100 h-100 d-flex flex-column justify-content-center">
                             <div class="project-number p-absolute d-flex">
                                 <h6>Project</h6>
-                                <span class="curent">3</span>
+                                <span class="curent">5</span>
                                 <span class="full">6</span>
                             </div>
                             <div class="metas d-inline-block mt-30 right-0 p-absolute top-0 dsn-container">
-                                <span>Php</span>
+                                <span>Wordpress</span>
                             </div>
-                            <a href="project3.php" class="effect-ajax border-top border-bottom" data-dsn-ajax="next">
+                            <a href="project5.php" class="effect-ajax border-top border-bottom" data-dsn-ajax="next">
                                 <h2 class="title section-padding p-relative ">
-                                    <span class="title-stroke">Skytech Integrated</span>
-                                    <span class="p-absolute section-padding d-none top-0 w-100 h-100 left-0">Skytech Integrated</span>
+                                    <span class="title-stroke">HUCAPAN</span>
+                                    <span class="p-absolute section-padding d-none top-0 w-100 h-100 left-0">HUCAPAN</span>
                                 </h2>
                             </a>
                             <div class="case">

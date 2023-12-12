@@ -126,53 +126,54 @@
         /**
          * Validation Contact form
          */
-        function contactValidator() {
-            const contact_form = $( "#contact-form" );
-            if ( contact_form < 1 ) {
-                return;
-            }
-            // when the form is submitted
-            contact_form.off( "submit" );
-            contact_form.on( "submit", function ( e ) {
-                // if the validator does not prevent form submit
-                if ( !e.isDefaultPrevented() ) {
-                    contact_form.validator();
+        // function contactValidator() {
+        //     const contact_form = $( "#contact-form" );
+        //     if ( contact_form < 1 ) {
+        //         return;
+        //     }
+        //     // when the form is submitted
+        //     contact_form.off( "submit" );
+        //     contact_form.on( "submit", function ( e ) {
+        //         // if the validator does not prevent form submit
+        //         if ( !e.isDefaultPrevented() ) {
+        //             contact_form.validator();
 
-                    // POST values in the background the the script URL
-                    $.ajax( {
-                        type: "POST",
-                        url: "contact.php",
-                        data: $( this ).serialize(),
-                        success: function ( data ) {
-                            // data = JSON object that contact.php returns
+        //             // POST values in the background the the script URL
+        //             $.ajax( {
+        //                 type: "POST",
+        //                 url: "contact.php",
+        //                 data: $( this ).serialize(),
+        //                 success: function ( data ) {
+        //                     // data = JSON object that contact.php returns
 
-                            // we recieve the type of the message: success x danger and apply it to the
-                            var messageAlert = "alert-" + data.type;
-                            var messageText = data.message;
+        //                     // we recieve the type of the message: success x danger and apply it to the
+        //                     var messageAlert = "alert-" + data.type;
+        //                     var messageText = data.message;
 
-                            // let's compose Bootstrap alert box HTML
-                            var alertBox = "<div class=\"alert " + messageAlert + " alert-dismissable\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>" + messageText + "</div>";
+        //                     // let's compose Bootstrap alert box HTML
+        //                     var alertBox = "<div class=\"alert " + messageAlert + " alert-dismissable\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">&times;</button>" + messageText + "</div>";
 
-                            // If we have messageAlert and messageText
-                            if ( messageAlert && messageText ) {
-                                // inject the alert to .messages div in our form
-                                contact_form.find( ".messages" ).html( alertBox );
-                                // empty the form
-                                contact_form[ 0 ].reset();
-                            }
-                            setTimeout( function () {
-                                contact_form.find( ".messages" ).html( "" );
-                            }, 3000 );
+        //                     // If we have messageAlert and messageText
+        //                     if ( messageAlert && messageText ) {
+        //                         // inject the alert to .messages div in our form
+        //                         contact_form.find( ".messages" ).php( alertBox );
+        //                         // empty the form
+        //                         contact_form[ 0 ].reset();
+        //                     }
+        //                     setTimeout( function () {
+        //                         contact_form.find( ".messages" ).php( "" );
+        //                     }, 3000 );
 
-                        },
-                        error: function ( error ) {
-                            console.log( error );
-                        },
-                    } );
-                    return false;
-                }
-            } );
-        }
+        //                 },
+        //                 error: function ( error ) {
+        //                     console.log( error );
+        //                 },
+        //             } );
+        //             return false;
+        //         }
+        //     } );
+        // }
+
 
 
         /**
@@ -436,7 +437,7 @@
                         scrollTo: { y: effectS ? $effectScroll.getScrollbar().limit.y : document.body.scrollHeight },
                     } );
 
-                    // title.find('.title').html( title.find( 'span.title-stroke' ).html() );
+                    // title.find('.title').php( title.find( 'span.title-stroke' ).php() );
                     // dsnGrid.convertTextLine(title.find('.title'));
                     tl.call( this.dsnCreateElement.bind( this, img, active, title.find( '.title' ), title, {
                         before: function ( container, img_move, title_move ) {
@@ -652,7 +653,7 @@
 
                     tl.call( function () {
                         dsnGrid.initAjax( data );
-                        this.mainRoot.html( $( data ).filter( main_root ).html() );
+                        this.mainRoot.php( $( data ).filter( main_root ).php() );
                         reloadAjax( true ).catch( $err => {
                             console.error( $err );
                         } );
@@ -1371,7 +1372,7 @@
 
 
                                         _target.$this.find( '.circular-item .circle' ).circleProgress( {} ).on( 'circle-animation-progress', function ( event, progress ) {
-                                            $( this ).find( 'h4' ).html( Math.round( ( event.target.dataset.value * progress ) * 100 ) + "%" );
+                                            $( this ).find( 'h4' ).php( Math.round( ( event.target.dataset.value * progress ) * 100 ) + "%" );
                                         } );
                                     } );
                                 }
@@ -1814,7 +1815,7 @@
 
                         if ( inner.hasClass( 'dsn-webgl' ) ) {
                             $slidObject.initWebgel( $( this ) ).then( ( $obj ) => {
-                                dsn_slider.find( ".control-nav .slider-total-index" ).html( dsnGrid.numberText( $obj.imgs.length ) );
+                                dsn_slider.find( ".control-nav .slider-total-index" ).php( dsnGrid.numberText( $obj.imgs.length ) );
                                 dsnGrid.WebGLDistortionHoverEffects( $obj, {
                                     parent: inner,
                                     vertical: !horizontal,
@@ -1909,7 +1910,7 @@
                             type: "custom",
                             clickable: true,
                             renderCustom: function ( swiper, current, total ) {
-                                dsn_slider.find( ".slider-total-index" ).html( dsnGrid.numberText( total ) );
+                                dsn_slider.find( ".slider-total-index" ).php( dsnGrid.numberText( total ) );
                                 return dsnGrid.numberText( current );
                             },
                         },
@@ -2043,7 +2044,7 @@
                     let $this = this;
 
 
-                    dsn_slider.find( ".control-nav .slider-current-index" ).html( dsnGrid.numberText( current + 1 ) );
+                    dsn_slider.find( ".control-nav .slider-current-index" ).php( dsnGrid.numberText( current + 1 ) );
                     let contentOld = dsn_slider.find( ".dsn-slider-content .dsn-active" );
                     let content_letterOld = contentOld.find( ".dsn-chars-wrapper" );
 
@@ -2604,7 +2605,7 @@
                 const $title = dsnGrid.getData( this, 'title' );
                 const _target = $( this ).offset().top;
                 const _element = $( '<div class="dsn-link-paginate text-transform-upper"></div>' );
-                _element.html( $title );
+                _element.php( $title );
                 $cont.append( _element );
                 _element.on( 'click', function () {
 

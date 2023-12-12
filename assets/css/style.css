@@ -643,6 +643,7 @@ input[type=search]::-webkit-search-decoration {
   letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--heading-color);
+  cursor: pointer;
 }
 .dsn-button:hover .text-button {
   -webkit-animation: storm 0.7s ease-in-out both;
@@ -5303,4 +5304,20 @@ body.dsn-show-contact .contact-modal {
 
 .box-seat .pro-text {
   bottom: -120px;
+}
+
+.alert {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.alert-danger {
+  color: #fff;
+  background: #ff2a2a;
+}
+
+.alert-success {
+  color: #fff;
+  background: #6eff15;
 }

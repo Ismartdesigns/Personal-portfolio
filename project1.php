@@ -63,10 +63,10 @@
                                                     <strong>Agency</strong> Revocube Technologies
 
                                                 </li>
-                                                <li class="p-relative">
+                                                <!-- <li class="p-relative">
                                                     <strong> Published</strong> November 22nd 2021
 
-                                                </li>
+                                                </li> -->
                                             </ul>
                                         </div>
                                     </div>
